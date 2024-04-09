@@ -5,4 +5,57 @@
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
+  background-image: url("../../Assets//Img/Rectangle\ 4.png");
+  border-bottom: 1.04px solid #ffffff;
+}
+#Left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+#left > a {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+}
+a {
+  color: #ffffff;
+}
+#a1 {
+  width: 254px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #ffffff;
+}
+
+#Right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: row;
+}
+#a2 {
+  width: 254px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #ffffff;
+}
+#a3 {
+  width: 88px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #ffffff;
 }
