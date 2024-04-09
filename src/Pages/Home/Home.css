@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "FuturaCyrillicBold";
+  src: url("../../Assets/Fonts/FuturaCyrillicBold.ttf");
+}
+#Home {
+  width: 100%;
+  min-height: calc(100vh - 53px);
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../../Assets/Img/image\ 16.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: start;
+}
+#Text {
+  width: 859px;
+  height: 360px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 212px;
+  flex-wrap: wrap;
+}
+#Text > h1 {
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 120px;
+  text-align: left;
+  font-family: FuturaCyrillicBold;
+}
+#TextBtn {
+  width: 379px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 90px;
+  border: none;
+  background: #000000;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 120px;
+  cursor: pointer;
+}
