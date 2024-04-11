@@ -2,12 +2,16 @@
   font-family: "FuturaCyrillicBold";
   src: url("../../Assets/Fonts/FuturaCyrillicBold.ttf");
 }
+@font-face {
+  font-family: "FuturaCyrillicMedium";
+  src: url("../../Assets/Fonts/FuturaCyrillicMedium.ttf");
+}
 #Home {
   width: 100%;
   min-height: calc(100vh - 53px);
   height: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   background-image: url(../../Assets/Img/image\ 16.png);
@@ -15,14 +19,22 @@
   background-size: 100%;
   background-position: start;
 }
+#Header {
+  width: 100%;
+  min-height: 1067px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 #Text {
-  width: 859px;
-  height: 360px;
+  width: 930px;
+  height: 361px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 212px;
-  flex-wrap: wrap;
+  flex-direction: row;
 }
 #Text > h1 {
   font-size: 120px;
@@ -30,6 +42,7 @@
   line-height: 120px;
   text-align: left;
   font-family: FuturaCyrillicBold;
+  position: relative;
 }
 #TextBtn {
   width: 379px;
@@ -43,6 +56,33 @@
   color: #fff;
   font-size: 30px;
   font-weight: 400;
-  line-height: 120px;
   cursor: pointer;
+  position: absolute;
+  margin: 244.5px 0px 0px 551px;
+}
+#Cookies {
+  width: 721px;
+  height: 243px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 39px;
+}
+#Notice {
+  width: 683px;
+  height: 68px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+
+}
+#Notice > p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  font-family: FuturaCyrillicBold;
 }
