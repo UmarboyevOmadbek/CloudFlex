@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 
 //img
-import BirdCookies from "../../Assets/Img/BirdCookies.png";
+// import BirdCookies from "../../Assets/Img/BirdCookies.png";
 
 export const Home = () => {
   return (
@@ -13,14 +13,15 @@ export const Home = () => {
           <button id="TextBtn">Start development with us!</button>
         </div>
         <div id="Cookies">
-          <img src={BirdCookies} alt="BirdCookies" />
+          {/* <img src={BirdCookies} alt="BirdCookies" /> */}
+          <div id="imgBRD"></div>
           <div id="Notice">
             <p>
-              WE USE COOKIES TO ENSURE YOUR BEST EXPERIENCE. THROUGH YOUR
-              CONTINUED USE OF THIS SITE YOU ACCEPT THIS USE. FOR MORE
-              INFORMATION, PLEASE SEE OUR PRIVACY POLICY.
+              WE USE COOKIES TO ENSURE YOUR BEST EXPERIENCE. <br /> THROUGH YOUR
+              CONTINUED USE OF THIS SITE YOU ACCEPT THIS USE. <br />
+              FOR MORE INFORMATION, PLEASE SEE OUR PRIVACY POLICY.
             </p>
-            <button>ACCEPT</button>
+            <button id="AcceptBtnH">ACCEPT</button>
           </div>
         </div>
       </div>

@@ -11,8 +11,8 @@
   min-height: calc(100vh - 53px);
   height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   flex-direction: column;
   background-image: url(../../Assets/Img/image\ 16.png);
   background-repeat: no-repeat;
@@ -67,7 +67,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin-top: 39px;
+  margin-top: 161px;
 }
 #Notice {
   width: 683px;
@@ -76,13 +76,38 @@
   justify-self: center;
   align-items: center;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.1);
-
+  background-image: linear-gradient(
+    to right,
+    #6991f3 0%,
+    #d7e3fc 19%,
+    #6991f3 42%,
+    #d7e3fc 79%,
+    #6991f3 100%
+  );
+  padding: 2%;
 }
 #Notice > p {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 900;
   line-height: 14px;
   text-align: left;
-  font-family: FuturaCyrillicBold;
+  font-family: FuturaCyrillicMedium;
+  border-right: 1px solid black;
+}
+#Cookies > #imgBRD {
+  width: 163px;
+  height: 243px;
+  background-image: url(../../Assets/Img/BirdCookies.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#AcceptBtnH {
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 14px;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 5%;
 }
